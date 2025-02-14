@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="stdafx.c" />
+    <ClCompile Include="Parts\Parts_01.c">
+      <Filter>Parts_01%28Hello_World%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_02.c">
+      <Filter>Parts_02%28Data_Type%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_03.c">
+      <Filter>Parts_03%28Operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_04.c">
+      <Filter>Parts_04%28If%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_05.c">
+      <Filter>Parts_05%28Loop%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_06.c">
+      <Filter>Parts_06%28Example%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_07.c">
+      <Filter>Parts_07%28Array%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_08.c">
+      <Filter>Parts_08%28Function%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_09.c">
+      <Filter>Parts_09%28UserDefinedDataType%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_10.c">
+      <Filter>Parts_10%28Pointer%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_11.c">
+      <Filter>Parts_11%28FunctionPointer%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_12.c">
+      <Filter>Parts_12%28MemoryAllocation%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_13.c">
+      <Filter>Parts_13%28TextIO%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Parts\Parts_List.h" />
+    <ClInclude Include="Parts\Parts_01.h">
+      <Filter>Parts_01%28Hello_World%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_02.h">
+      <Filter>Parts_02%28Data_Type%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_03.h">
+      <Filter>Parts_03%28Operator%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_04.h">
+      <Filter>Parts_04%28If%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_05.h">
+      <Filter>Parts_05%28Loop%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_06.h">
+      <Filter>Parts_06%28Example%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_07.h">
+      <Filter>Parts_07%28Array%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_08.h">
+      <Filter>Parts_08%28Function%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_09.h">
+      <Filter>Parts_09%28UserDefinedDataType%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_10.h">
+      <Filter>Parts_10%28Pointer%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_11.h">
+      <Filter>Parts_11%28FunctionPointer%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_12.h">
+      <Filter>Parts_12%28MemoryAllocation%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_13.h">
+      <Filter>Parts_13%28TextIO%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Parts_01%28Hello_World%29">
+      <UniqueIdentifier>{ff3e88c6-e711-407f-8b2c-d11206e63bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_02%28Data_Type%29">
+      <UniqueIdentifier>{6fb88964-060a-4c15-82b0-2a577487844c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_03%28Operator%29">
+      <UniqueIdentifier>{975da606-33ed-4025-a6b6-67f068f25acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_05%28Loop%29">
+      <UniqueIdentifier>{bfb04760-ea09-4e1c-89b0-6a2c392eb150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_04%28If%29">
+      <UniqueIdentifier>{d2d99aa2-e5db-47b7-8d1f-e01c2c7571da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_06%28Example%29">
+      <UniqueIdentifier>{fce7c76d-a020-496e-8e20-6e9639d8827a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_07%28Array%29">
+      <UniqueIdentifier>{e4786d15-5ee7-4259-92bc-b09a582def66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_08%28Function%29">
+      <UniqueIdentifier>{16aec487-ef23-4aee-b3be-324a6fc2663c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_09%28UserDefinedDataType%29">
+      <UniqueIdentifier>{5a18780f-507b-4507-bb89-5c4f0da23779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_10%28Pointer%29">
+      <UniqueIdentifier>{8e01c0a6-ce5d-4e79-a480-0fbd27a67551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_11%28FunctionPointer%29">
+      <UniqueIdentifier>{c4d62871-097a-4859-82fe-7eb3afb67ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_12%28MemoryAllocation%29">
+      <UniqueIdentifier>{8692711f-73e6-4b9a-aef2-49aade5e8421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_13%28TextIO%29">
+      <UniqueIdentifier>{ba31368b-af19-48d0-9198-2a691c85ad9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

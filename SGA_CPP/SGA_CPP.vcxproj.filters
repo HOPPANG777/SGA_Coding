@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Parts\Parts_01.cpp">
+      <Filter>Parts_01%28Stream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_02.cpp">
+      <Filter>Parts_02%28Polymorphism%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_03.cpp">
+      <Filter>Parts_03%28OOP%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_04.cpp">
+      <Filter>Parts_04%28Inheritance%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_05.cpp">
+      <Filter>Parts_05%28ArrayList%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_06.cpp">
+      <Filter>Parts_06%28Singleton%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_07.cpp">
+      <Filter>Parts_07%28Template%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_08.cpp">
+      <Filter>Parts_08%28AutoPtr%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\Parts_09.cpp">
+      <Filter>Parts_09%28STL%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Parts\Parts_List.h" />
+    <ClInclude Include="Parts\Parts_01.h">
+      <Filter>Parts_01%28Stream%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_02.h">
+      <Filter>Parts_02%28Polymorphism%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_03.h">
+      <Filter>Parts_03%28OOP%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_04.h">
+      <Filter>Parts_04%28Inheritance%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_05.h">
+      <Filter>Parts_05%28ArrayList%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_06.h">
+      <Filter>Parts_06%28Singleton%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_07.h">
+      <Filter>Parts_07%28Template%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_08.h">
+      <Filter>Parts_08%28AutoPtr%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts\Parts_09.h">
+      <Filter>Parts_09%28STL%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Parts_07%28Template%29">
+      <UniqueIdentifier>{d05b4a02-8af2-4529-8059-147e1f18b8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_06%28Singleton%29">
+      <UniqueIdentifier>{f6f84940-551a-4480-a075-7d1a96373abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_08%28AutoPtr%29">
+      <UniqueIdentifier>{a941da6c-392a-44af-b497-8ae07b8905c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_09%28STL%29">
+      <UniqueIdentifier>{253e71b8-fda9-4b7d-a3fa-df8f2b049ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_05%28ArrayList%29">
+      <UniqueIdentifier>{f0c68999-f3fb-4dd5-8c9e-11d1d335fa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_04%28Inheritance%29">
+      <UniqueIdentifier>{9316ce30-ef2c-41ae-918c-2c4624c3de22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_02%28Polymorphism%29">
+      <UniqueIdentifier>{4d8e6062-abef-4ade-aad4-543ff93c1573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_01%28Stream%29">
+      <UniqueIdentifier>{c82abe73-8af3-472b-aba4-33582e651030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts_03%28OOP%29">
+      <UniqueIdentifier>{5534f761-84ca-498e-8342-bdf20377418a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
