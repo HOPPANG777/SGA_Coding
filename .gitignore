@@ -1,0 +1,67 @@
+# ------------------------------
+# 기본 컴파일 산출물 (공통)
+# ------------------------------
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files (C/C++ 프로젝트에서는 드물지만 포함)
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ------------------------------
+# 빌드 및 출력 디렉토리
+# ------------------------------
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# ------------------------------
+# IDE 및 개발환경 관련 파일
+# ------------------------------
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.user
+*.suo
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# CLion & CMake
+.idea/
+cmake-build-*/
+
+# 기타 OS에서 생성하는 임시 파일
+.DS_Store
+Thumbs.db
