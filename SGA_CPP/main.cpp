@@ -9,7 +9,7 @@ struct TestData
 int main()
 {
 	//Parts_01 Parts_01;
-	Parts_02 Parts_02;
+	//Parts_02 Parts_02;
 	//Parts_03 Parts_03; //Parts_03 클래스를 통해서 p03 객체를 만든다.
 					//Parts_03 클래스의 생성자가 호출이 된다.
 	//Parts_04 Parts_04;
@@ -100,6 +100,19 @@ int main()
 
 	cout << *ptr << endl;
 	*/
+
+	int n = 7;
+	int t = 15;
+
+	int answer = 0;
+	int origin = n;
+
+	for (int i = 1; i < t; ++i)
+	{
+		n = n * i;
+	
+		cout << n << endl;
+	}
 
 	std::cout << '\n';
 	return 0;
