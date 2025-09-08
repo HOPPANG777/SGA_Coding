@@ -8,10 +8,10 @@ Parts_08::Parts_08()
 	//RangeBasedFor();
 	//AutoPtr();
 	//UniquePtr();
-	//SharedPtr();
+	SharedPtr();
 	//WeakPtr();
 	//Lambda();
-	MemFuncPtr();
+	//MemFuncPtr();
 }
 
 void Parts_08::Auto()

@@ -16,7 +16,7 @@ int main()
 	//Parts_05 Parts_05;
 	//Parts_06 Parts_06;
 	//Parts_07 Parts_07;
-	//Parts_08 Parts_08;
+	Parts_08 Parts_08;
 	//Parts_09 Parts_09;
 
 	//Çüº¯È¯
@@ -101,18 +101,18 @@ int main()
 	cout << *ptr << endl;
 	*/
 
-	int n = 7;
-	int t = 15;
+	//int n = 7;
+	//int t = 15;
 
-	int answer = 0;
-	int origin = n;
+	//int answer = 0;
+	//int origin = n;
 
-	for (int i = 1; i < t; ++i)
-	{
-		n = n * i;
-	
-		cout << n << endl;
-	}
+	//for (int i = 1; i < t; ++i)
+	//{
+	//	n = n * i;
+	//
+	//	cout << n << endl;
+	//}
 
 	std::cout << '\n';
 	return 0;
